@@ -35,7 +35,7 @@ __PORTABLETARGETS_PROJECT_CONTENT="
 __PUBLISH_TFM=netcoreapp2.0
 
 __DEFAULT_RESTORE_ARGS="--no-cache"
-__INIT_TOOLS_SOURCES="--source https://pkgs.dev.azure.com/dnceng/public/_packaging/myget-legacy/nuget/v3/index.json --source https://api.nuget.org/v3/index.json ${__INIT_TOOLS_RESTORE_ARGS:-}"
+__INIT_TOOLS_SOURCES="--source https://pkgs.dev.azure.com/dnceng/public/_packaging/myget-legacy/nuget/v3/index.json --source https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-public/nuget/v3/index.json ${__INIT_TOOLS_RESTORE_ARGS:-}"
 __TOOLRUNTIME_SOURCES="--source https://dotnetmygetlegacy.blob.core.windows.net/dotnet-core/index.json --source https://dotnetfeed.blob.core.windows.net/dotnet-coreclr/index.json"
 
 if [ ! -d "$__PROJECT_DIR" ]; then
